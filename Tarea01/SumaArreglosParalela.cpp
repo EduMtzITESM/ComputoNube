@@ -2,7 +2,7 @@
 // Usaré <ctime> para inicializar la semilla aleatoria con srand()
 #include <cstdlib>  // Para usar la función rand()
 #include <ctime>    // Para usar la función time()
-//#include <omp.h>
+#include <omp.h>
 
 #define N 1000       // Define una constante llamada 'N' con el valor 1000
 #define chunk 100    // Define una constante llamada 'chunk' con el valor 100
